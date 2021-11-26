@@ -1,0 +1,11 @@
+.App {
+  margin: 20px;
+}
+
+.App #navbar {
+    margin-bottom: 20px;
+}
+
+.App #sidenav {
+    margin-top: 20px;
+}

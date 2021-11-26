@@ -2,7 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    null
+    <div className="nes-container">
+      <h3 className="test">
+        sdfsdfs
+      </h3>
+    </div>
   );
 }
 

@@ -1,13 +1,11 @@
 import './App.css';
 
+import Navbar from './components/Navbar/Navbar.js';
+
 function App() {
   return (
     <div className="App">
-      <div id="navbar" className="nes-container is-dark">
-        <span>
-          Hello world!
-        </span>
-      </div>
+      <Navbar />
       <div id="sidenav" className="nes-container with-title is-centered is-dark">
         <p className="title">PokeDex</p>
       </div>

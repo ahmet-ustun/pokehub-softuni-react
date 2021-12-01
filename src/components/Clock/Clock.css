@@ -1,0 +1,11 @@
+#clock {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 220px;
+    background-color: #a5a2a2;
+}
+
+#clock p {
+    font-size: 14px;
+    text-align: center;
+}

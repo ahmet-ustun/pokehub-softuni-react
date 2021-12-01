@@ -19,6 +19,7 @@ const ButtonList = () => {
 }
 
 const Sidebar = () => {
+    
     return (
         <div id="sidebar" className="nes-container with-title is-centered is-dark">
             <p className="title">Pokédex</p>

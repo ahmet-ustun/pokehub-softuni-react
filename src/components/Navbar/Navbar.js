@@ -1,6 +1,7 @@
 import './Navbar.css';
 
 const LeftSide = () => {
+    
     return (
         <div id="navbar-left">
             <a href="/">
@@ -16,6 +17,7 @@ const LeftSide = () => {
 }
 
 const RightSide = () => {
+
     return (
         <div id="navbar-right">
             <a href="/login">
@@ -35,6 +37,7 @@ const RightSide = () => {
 }
 
 const Navbar = () => {
+
     return (
         <div id="navbar" className="nes-container is-dark">
             <LeftSide />

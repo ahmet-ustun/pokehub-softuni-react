@@ -1,0 +1,25 @@
+#navbar {
+    margin-bottom: 10px;
+    overflow:hidden;
+    outline: solid #212529;
+}
+
+#navbar a {
+    color:white;
+    text-align: center;
+    padding: 14px;
+}
+
+#navbar a img {
+    width: 32px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+}
+
+#navbar-left {
+    float: left;
+}
+
+#navbar-right {
+    float: right;
+}

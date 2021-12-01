@@ -1,0 +1,9 @@
+#sidebar {
+    margin-top: 16px;
+    width: 220px;
+    background-color: #E3350D;
+}
+
+#sidebar .title {
+    background-color: #E3350D;
+}

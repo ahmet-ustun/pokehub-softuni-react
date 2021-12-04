@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer.js';
 import Home from './components/Home/Home.js';
 import Catch from './components/Catch/Catch.js';
 import Login from './components/Login/Login.js';
+import Signup from './components/Signup/Signup.js';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
 						<Route exact path="/" component={Home} />
 						<Route exact path="/catch" component={Catch} />
 						<Route exact path="/login" component={Login} />
+						<Route exact path="/signup" component={Signup} />
 					</Switch>
 				</main>
 				<footer>

@@ -1,17 +1,25 @@
-import './Login.css';
+import './Signup.css';
 
-const Login = () => {
+const Signup = () => {
     return (
-        <div id="login" className="nes-container is-dark">
-            <h2>Login</h2>
+        <div id="signup" className="nes-container is-dark">
+            <h2>Signup</h2>
 
             <form>
+                <div class="nes-field">
+                    <input type="username" class="nes-input" placeholder="Enter username" />
+                </div>
+
                 <div class="nes-field">
                     <input type="email" class="nes-input" placeholder="Enter e-mail" />
                 </div>
 
                 <div class="nes-field">
                     <input type="password" class="nes-input" placeholder="Enter password" />
+                </div>
+
+                <div class="nes-field">
+                    <input type="password" class="nes-input" placeholder="Re-enter password" />
                 </div>
 
                 <div>
@@ -22,4 +30,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default Signup;

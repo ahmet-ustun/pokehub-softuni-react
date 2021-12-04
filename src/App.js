@@ -1,15 +1,17 @@
 import './App.css';
-import { Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar.js';
 import Clock from './components/Clock/Clock.js';
 import Sidebar from './components/Sidebar/Sidebar.js';
 import Footer from './components/Footer/Footer.js';
 
+import Home from './components/Home/Home.js';
+
 function App() {
 
 	return (
-		<Router>
+		<BrowserRouter>
 			<div className="App">
 				<header>
 					<Navbar />
@@ -18,16 +20,16 @@ function App() {
 					<Clock />
 					<Sidebar />
 				</aside>
-				<main>
+				<main className="nes-container">
 					<Switch>
-						<Route path="/"><Home /></Route>
+						<Route path="/" component={Home} />
 					</Switch>
 				</main>
 				<footer>
 					<Footer />
 				</footer>
 			</div>
-		</Router>
+		</BrowserRouter>
 	);
 }
 

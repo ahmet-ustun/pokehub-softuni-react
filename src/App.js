@@ -7,6 +7,8 @@ import Sidebar from './components/Sidebar/Sidebar.js';
 import Footer from './components/Footer/Footer.js';
 
 import Home from './components/Home/Home.js';
+import Catch from './components/Catch/Catch.js';
+import Login from './components/Login/Login.js';
 
 function App() {
 
@@ -22,7 +24,9 @@ function App() {
 				</aside>
 				<main className="nes-container">
 					<Switch>
-						<Route path="/" component={Home} />
+						<Route exact path="/" component={Home} />
+						<Route exact path="/catch" component={Catch} />
+						<Route exact path="/login" component={Login} />
 					</Switch>
 				</main>
 				<footer>

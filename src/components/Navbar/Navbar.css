@@ -1,6 +1,6 @@
 #navbar {
     overflow: hidden;
-    outline: solid #212529;
+    outline: solid #212529 4px;
 }
 
 #navbar a {

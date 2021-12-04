@@ -1,4 +1,5 @@
 import './Sidebar.css';
+import { Link } from 'react-router-dom';
 
 const ButtonList = () => {
 
@@ -9,9 +10,9 @@ const ButtonList = () => {
 
     return letterList.map(letter => {
         return (
-            <button type="button" className="nes-btn is-primary" key={letter}>
+            <Link to={`/pokedex/${letter.toLowerCase()}`} className="nes-btn is-primary" key={letter}>
                 {letter}
-            </button>
+            </Link>
         )
 
         //TODO: I have to find a way to make this a link.

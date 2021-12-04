@@ -6,7 +6,7 @@
     background-color: #E3350D;
 }
 
-#sidebar button {
+#sidebar .nes-btn {
     height: 34px;
     width: 34px;
 }

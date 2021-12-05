@@ -1,0 +1,33 @@
+#pokedex {
+    background-color: #a5a2a2;
+}
+
+#pokedex .toolbar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#pokedex .nes-field {
+    grid-column: 4 / 6;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+
+#pokedex .nes-field img {
+    width: 52px;
+}
+
+#pokedex .animation {
+    grid-column: 1 / 2;
+    margin-top: 18px;
+    color: black;
+}
+
+#pokedex .animation label:nth-of-type(1) {
+    float: left;
+}
+
+#pokedex .animation label:nth-of-type(2) {
+    float: right;
+}

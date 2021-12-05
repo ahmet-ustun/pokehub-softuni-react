@@ -14,8 +14,6 @@ const ButtonList = () => {
                 {letter}
             </Link>
         )
-
-        //TODO: I have to find a way to make this a link.
     });
 }
 

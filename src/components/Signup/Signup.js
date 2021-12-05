@@ -7,19 +7,19 @@ const Signup = () => {
 
             <form>
                 <div class="nes-field">
-                    <input type="username" class="nes-input" placeholder="Enter username" />
+                    <input type="text" id="username" class="nes-input" placeholder="Enter username" />
                 </div>
 
                 <div class="nes-field">
-                    <input type="email" class="nes-input" placeholder="Enter e-mail" />
+                    <input type="email" id="email" class="nes-input" placeholder="Enter e-mail" />
                 </div>
 
                 <div class="nes-field">
-                    <input type="password" class="nes-input" placeholder="Enter password" />
+                    <input type="password" id="password" class="nes-input" placeholder="Enter password" />
                 </div>
 
                 <div class="nes-field">
-                    <input type="password" class="nes-input" placeholder="Re-enter password" />
+                    <input type="password" id="rePassword" class="nes-input" placeholder="Re-enter password" />
                 </div>
 
                 <div>

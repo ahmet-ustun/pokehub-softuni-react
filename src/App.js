@@ -10,6 +10,7 @@ import Home from './components/Home/Home.js';
 import Catch from './components/Catch/Catch.js';
 import Login from './components/Login/Login.js';
 import Signup from './components/Signup/Signup.js';
+import Pokedex from './components/Pokedex/Pokedex.js';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
 						<Route exact path="/catch" component={Catch} />
 						<Route exact path="/login" component={Login} />
 						<Route exact path="/signup" component={Signup} />
+						<Route exact path="/pokedex/:letter" component={Pokedex} />
 					</Switch>
 				</main>
 				<footer>

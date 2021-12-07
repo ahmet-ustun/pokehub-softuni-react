@@ -2,19 +2,29 @@ import './Pokedex.css';
 
 import { pokemonList } from '../../database/pokemonList.js';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Pokemon = ({ pokemon }) => {
 
+    const { letter } = useParams(); 
+    
+    const name = pokemon.name
+        .toLowerCase();
+    
+    const code = pokemon.code
+        .toString()
+        .padStart(3, '0');
+
     return (
-        <div className="nes-container is-dark">
+        <Link to={`/pokedex/${letter}/${name}`} className="nes-container is-dark">
             <img src={pokemon.logogif} alt={pokemon.name} />
-            <span>{`#${pokemon.code}`}</span>
+            <span>{`#${code}`}</span>
             <span>{pokemon.name}</span>
-        </div>
+        </Link>
     );
 }
 
-const Pokedex = () => {
+const Output = () => {
 
     const { letter } = useParams();
 
@@ -22,6 +32,13 @@ const Pokedex = () => {
         const pokeName = x.name.toLowerCase();
         return pokeName.startsWith(letter)
     });
+
+    return outputList.length === 0
+        ? 'TODO'
+        : outputList.map(x => <Pokemon pokemon={x} key={x.name} />);
+}
+
+const Pokedex = () => {
 
     return (
         <div id="pokedex" className="nes-container is-dark">
@@ -46,7 +63,7 @@ const Pokedex = () => {
             </div>
 
             <div className="pokemon-list">
-                {outputList.map(x => <Pokemon pokemon={x} key={x.name} />)}
+                <Output />
             </div>
         </div>
     );

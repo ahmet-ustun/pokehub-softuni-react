@@ -1,0 +1,20 @@
+#not-found-1 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#not-found-1 img {
+    border: solid 4px black;
+}
+
+#not-found-2 {
+    background-color: #a5a2a2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#not-found-2 img {
+    border: solid 4px black;
+}

@@ -1,12 +1,12 @@
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
 
-const ButtonList = () => {
+const letterList = [
+    'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
+    'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
+];
 
-    const letterList = [
-        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
-        'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
-    ];
+const ButtonList = () => {
 
     return letterList.map(letter => {
         return (
@@ -27,4 +27,7 @@ const Sidebar = () => {
     );
 }
 
-export default Sidebar;
+export {
+    letterList,
+    Sidebar
+};

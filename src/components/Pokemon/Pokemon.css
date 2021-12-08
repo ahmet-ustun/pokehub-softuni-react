@@ -1,0 +1,30 @@
+#pokemon {
+    background-color: #a5a2a2;
+}
+
+#pokemon-self {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+
+#pokemon-self img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+#pokemon-self span {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#pokemon-self p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#pokemon-self div {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}

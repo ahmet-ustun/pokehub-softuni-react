@@ -3,28 +3,35 @@ import './Pokedex.css';
 import { pokemonList } from '../../database/pokemonList.js';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
-const Pokemon = ({ pokemon }) => {
 
-    const { letter } = useParams(); 
-    
+
+const Pokemon = ({ pokemon, picStyle }) => {
+
+    const { letter } = useParams();
+
     const name = pokemon.name
         .toLowerCase();
-    
+
     const code = pokemon.code
         .toString()
         .padStart(3, '0');
 
+    const img = picStyle === 'png' 
+        ? pokemon.logopng 
+        : pokemon.logogif;
+
     return (
         <Link to={`/pokedex/${letter}/${name}`} className="nes-container is-dark">
-            <img src={pokemon.logogif} alt={pokemon.name} />
+            <img className={picStyle} src={img} alt={pokemon.name} />
             <span>{`#${code}`}</span>
             <span>{pokemon.name}</span>
         </Link>
     );
 }
 
-const Output = () => {
+const Output = ({ picStyle }) => {
 
     const { letter } = useParams();
 
@@ -35,10 +42,18 @@ const Output = () => {
 
     return outputList.length === 0
         ? 'TODO'
-        : outputList.map(x => <Pokemon pokemon={x} key={x.name} />);
+        : outputList.map(x => <Pokemon pokemon={x} picStyle={picStyle} key={x.name} />);
 }
 
 const Pokedex = () => {
+
+    const [value, setValue] = useState('png');
+
+    function handleChange() {
+        value === 'png'
+            ? setValue('gif')
+            : setValue('png');
+    };
 
     return (
         <div id="pokedex" className="nes-container is-dark">
@@ -46,13 +61,13 @@ const Pokedex = () => {
             <div className="toolbar">
                 <div className="animation">
                     <label>
-                        <input type="radio" className="nes-radio is-dark" name="answer-dark" checked />
-                        <span>PNG</span>
+                        <input type="radio" className="nes-radio is-dark" name="answer-dark" checked={value === 'png'} onChange={handleChange} />
+                        <span>Retro</span>
                     </label>
 
                     <label>
-                        <input type="radio" className="nes-radio is-dark" name="answer-dark" />
-                        <span>GIF</span>
+                        <input type="radio" className="nes-radio is-dark" name="answer-dark" checked={value === 'gif'} onChange={handleChange} />
+                        <span>Modern</span>
                     </label>
                 </div>
 
@@ -63,7 +78,7 @@ const Pokedex = () => {
             </div>
 
             <div className="pokemon-list">
-                <Output />
+                <Output picStyle={value} />
             </div>
         </div>
     );

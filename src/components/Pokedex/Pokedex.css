@@ -62,3 +62,7 @@
 #pokedex .pokemon-list #no-result {
     grid-column: 1 / 4;
 }
+
+#pokedex .pokemon-list #not-found-1 {
+    grid-column: 1 / 4;
+}

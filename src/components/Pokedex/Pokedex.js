@@ -5,6 +5,8 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import NoResult from '../NoResult/NoResult.js';
+import { letterList } from '../Sidebar/Sidebar.js';
+import { NotFound2 } from '../NotFound/NotFound.js';
 
 const Result = ({ pokemon, picStyle }) => {
 
@@ -47,6 +49,11 @@ const Output = ({ picStyle }) => {
 const Pokedex = () => {
 
     const [value, setValue] = useState('png');
+    const { letter } = useParams();
+
+    if (!letterList.includes(letter.toUpperCase())) {
+        return <NotFound2 />
+    };
 
     function handleChange() {
         value === 'png'

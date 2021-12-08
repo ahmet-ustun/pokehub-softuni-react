@@ -32,7 +32,7 @@ const Result = ({ pokemon, picStyle }) => {
     );
 }
 
-const Output = ({ picStyle }) => {
+const Output = ({ picStyle, searchValue }) => {
 
     const { letter } = useParams();
 
@@ -41,15 +41,22 @@ const Output = ({ picStyle }) => {
         return pokeName.startsWith(letter)
     });
 
-    return outputList.length === 0
+    const searchList = outputList.filter(x => {
+        const a = x.name.toLowerCase();
+        const b = searchValue.toLowerCase();
+        return a.includes(b);
+    })
+
+    return searchList.length === 0
         ? <NoResult />
-        : outputList.map(x => <Result pokemon={x} picStyle={picStyle} key={x.name} />);
+        : searchList.map(x => <Result pokemon={x} picStyle={picStyle} key={x.name} />);
 }
 
 const Pokedex = () => {
 
     const [value, setValue] = useState('png');
     const { letter } = useParams();
+    const [searchValue, setSearchValue] = useState('');
 
     if (!letterList.includes(letter.toUpperCase())) {
         return <NotFound2 />
@@ -60,6 +67,10 @@ const Pokedex = () => {
             ? setValue('gif')
             : setValue('png');
     };
+
+    function searchPokemon(e) {
+        setSearchValue(e.target.value);
+    }
 
     return (
         <div id="pokedex" className="nes-container is-dark">
@@ -79,12 +90,12 @@ const Pokedex = () => {
 
                 <div className="nes-field">
                     <img src="https://img.icons8.com/dusk/64/000000/google-web-search.png" alt="Search" />
-                    <input type="text" id="search" className="nes-input" />
+                    <input type="text" id="search" className="nes-input" value={searchValue} onChange={searchPokemon} />
                 </div>
             </div>
 
             <div className="pokemon-list">
-                <Output picStyle={value} />
+                <Output picStyle={value} searchValue={searchValue} />
             </div>
         </div>
     );

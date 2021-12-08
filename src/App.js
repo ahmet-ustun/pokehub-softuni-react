@@ -11,6 +11,7 @@ import Catch from './components/Catch/Catch.js';
 import Login from './components/Login/Login.js';
 import Signup from './components/Signup/Signup.js';
 import Pokedex from './components/Pokedex/Pokedex.js';
+import Pokemon from './components/Pokemon/Pokemon.js';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
 						<Route exact path="/login" component={Login} />
 						<Route exact path="/signup" component={Signup} />
 						<Route exact path="/pokedex/:letter" component={Pokedex} />
+						<Route exact path="/pokedex/:letter/:pokemon" component={Pokemon} />
 					</Switch>
 				</main>
 				<footer>

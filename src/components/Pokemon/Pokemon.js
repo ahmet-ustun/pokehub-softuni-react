@@ -27,7 +27,7 @@ const Result = ({ pokemon }) => {
 const Output = ({ pokemon }) => {
     return pokemon
         ? <Result pokemon={pokemon} />
-        : 'nada';
+        : '404';
 }
 
 const Pokemon = () => {

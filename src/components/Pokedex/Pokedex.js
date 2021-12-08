@@ -4,6 +4,7 @@ import { pokemonList } from '../../database/pokemonList.js';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import NoResult from '../NoResult/NoResult.js';
 
 const Result = ({ pokemon, picStyle }) => {
 
@@ -39,7 +40,7 @@ const Output = ({ picStyle }) => {
     });
 
     return outputList.length === 0
-        ? 'TODO'
+        ? <NoResult />
         : outputList.map(x => <Result pokemon={x} picStyle={picStyle} key={x.name} />);
 }
 

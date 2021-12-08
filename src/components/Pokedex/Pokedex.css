@@ -58,3 +58,7 @@
     padding-left: 24px;
     color: black;
 }
+
+#pokedex .pokemon-list #no-result {
+    grid-column: 1 / 4;
+}

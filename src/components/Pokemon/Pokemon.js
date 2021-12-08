@@ -2,6 +2,7 @@ import './Pokemon.css';
 
 import { useParams } from 'react-router';
 import { pokemonList } from '../../database/pokemonList.js';
+import { NotFound1 } from '../NotFound/NotFound.js';
 
 const Result = ({ pokemon }) => {
 
@@ -27,7 +28,7 @@ const Result = ({ pokemon }) => {
 const Output = ({ pokemon }) => {
     return pokemon
         ? <Result pokemon={pokemon} />
-        : '404';
+        : <NotFound1 />;
 }
 
 const Pokemon = () => {
@@ -38,10 +39,6 @@ const Pokemon = () => {
         const pokeName = x.name.toLowerCase();
         return pokeName === pokemon;
     });
-
-    console.log(output)
-
-
 
     return (
         <div id="pokemon" className="nes-container is-dark">

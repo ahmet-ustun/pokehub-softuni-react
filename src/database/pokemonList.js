@@ -8,7 +8,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/1.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/1.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif"
     },
     {
@@ -20,7 +20,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/2.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/2.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/2.gif"
     },
     {
@@ -32,7 +32,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/3.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif"
     },
     {
@@ -43,7 +43,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/4.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/4.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif"
     },
     {
@@ -54,7 +54,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/5.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/5.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/5.gif"
     },
     {
@@ -66,7 +66,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/6.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/6.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif"
     },
     {
@@ -77,7 +77,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/7.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/7.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif"
     },
     {
@@ -88,7 +88,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/8.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/8.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/8.gif"
     },
     {
@@ -99,7 +99,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/9.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/9.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif"
     },
     {
@@ -110,7 +110,7 @@ export const pokemonList = [
             "Bug"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/10.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10.gif"
     },
     {
@@ -121,7 +121,7 @@ export const pokemonList = [
             "Bug"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/11.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/11.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/11.gif"
     },
     {
@@ -133,7 +133,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/12.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/12.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/12.gif"
     },
     {
@@ -145,7 +145,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/13.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/13.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/13.gif"
     },
     {
@@ -157,7 +157,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/14.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/14.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/14.gif"
     },
     {
@@ -169,7 +169,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/15.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/15.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/15.gif"
     },
     {
@@ -181,7 +181,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/16.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/16.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/16.gif"
     },
     {
@@ -193,7 +193,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/17.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/17.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/17.gif"
     },
     {
@@ -205,7 +205,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/18.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/18.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif"
     },
     {
@@ -216,7 +216,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/19.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/19.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/19.gif"
     },
     {
@@ -227,7 +227,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/20.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/20.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif"
     },
     {
@@ -239,7 +239,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/21.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/21.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/21.gif"
     },
     {
@@ -251,7 +251,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/22.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/22.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/22.gif"
     },
     {
@@ -262,7 +262,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/23.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/23.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/23.gif"
     },
     {
@@ -273,7 +273,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/24.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/24.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/24.gif"
     },
     {
@@ -284,7 +284,7 @@ export const pokemonList = [
             "Electric"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/25.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/25.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif"
     },
     {
@@ -295,7 +295,7 @@ export const pokemonList = [
             "Electric"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/26.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/26.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/26.gif"
     },
     {
@@ -306,7 +306,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/27.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/27.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/27.gif"
     },
     {
@@ -317,7 +317,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/28.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/28.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif"
     },
     {
@@ -328,7 +328,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/29.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/29.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif"
     },
     {
@@ -339,7 +339,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/30.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/30.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif"
     },
     {
@@ -351,7 +351,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/31.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/31.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/31.gif"
     },
     {
@@ -362,7 +362,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/32.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/32.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif"
     },
     {
@@ -373,7 +373,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/33.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/33.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif"
     },
     {
@@ -385,7 +385,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/34.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/34.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/34.gif"
     },
     {
@@ -396,7 +396,7 @@ export const pokemonList = [
             "Fairy"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/35.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/35.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/35.gif"
     },
     {
@@ -407,7 +407,7 @@ export const pokemonList = [
             "Fairy"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/36.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/36.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/36.gif"
     },
     {
@@ -418,7 +418,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/37.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/37.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/37.gif"
     },
     {
@@ -429,7 +429,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/38.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/38.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/38.gif"
     },
     {
@@ -441,7 +441,7 @@ export const pokemonList = [
             "Fairy"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/39.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/39.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/39.gif"
     },
     {
@@ -453,7 +453,7 @@ export const pokemonList = [
             "Fairy"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/40.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/40.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif"
     },
     {
@@ -465,7 +465,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/41.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/41.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/41.gif"
     },
     {
@@ -477,7 +477,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/42.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/42.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/42.gif"
     },
     {
@@ -489,7 +489,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/43.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/43.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/43.gif"
     },
     {
@@ -501,7 +501,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/44.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/44.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/44.gif"
     },
     {
@@ -513,7 +513,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/45.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/45.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif"
     },
     {
@@ -525,7 +525,7 @@ export const pokemonList = [
             "Grass"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/46.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/46.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/46.gif"
     },
     {
@@ -537,7 +537,7 @@ export const pokemonList = [
             "Grass"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/47.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/47.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif"
     },
     {
@@ -549,7 +549,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/48.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/48.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/48.gif"
     },
     {
@@ -561,7 +561,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/49.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/49.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/49.gif"
     },
     {
@@ -572,7 +572,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/50.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/50.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/50.gif"
     },
     {
@@ -583,7 +583,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/51.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/51.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/51.gif"
     },
     {
@@ -594,7 +594,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/52.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/52.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/52.gif"
     },
     {
@@ -605,7 +605,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/53.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/53.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif"
     },
     {
@@ -616,7 +616,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/54.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/54.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/54.gif"
     },
     {
@@ -627,7 +627,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/55.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/55.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif"
     },
     {
@@ -638,7 +638,7 @@ export const pokemonList = [
             "Fighting"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/56.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/56.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/56.gif"
     },
     {
@@ -649,7 +649,7 @@ export const pokemonList = [
             "Fighting"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/57.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/57.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/57.gif"
     },
     {
@@ -660,7 +660,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/58.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/58.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/58.gif"
     },
     {
@@ -671,7 +671,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/59.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/59.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/59.gif"
     },
     {
@@ -682,7 +682,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/60.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/60.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/60.gif"
     },
     {
@@ -693,7 +693,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/61.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/61.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/61.gif"
     },
     {
@@ -705,7 +705,7 @@ export const pokemonList = [
             "Fighting"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/62.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/62.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/62.gif"
     },
     {
@@ -716,7 +716,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/63.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/63.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/63.gif"
     },
     {
@@ -727,7 +727,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/64.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/64.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/64.gif"
     },
     {
@@ -738,7 +738,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/65.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/65.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/65.gif"
     },
     {
@@ -749,7 +749,7 @@ export const pokemonList = [
             "Fighting"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/66.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/66.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/66.gif"
     },
     {
@@ -760,7 +760,7 @@ export const pokemonList = [
             "Fighting"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/67.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/67.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif"
     },
     {
@@ -771,7 +771,7 @@ export const pokemonList = [
             "Fighting"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/68.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/68.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif"
     },
     {
@@ -783,7 +783,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/69.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/69.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/69.gif"
     },
     {
@@ -795,7 +795,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/70.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/70.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/70.gif"
     },
     {
@@ -807,7 +807,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/71.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/71.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/71.gif"
     },
     {
@@ -819,7 +819,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/72.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/72.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/72.gif"
     },
     {
@@ -831,7 +831,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/73.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/73.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/73.gif"
     },
     {
@@ -843,7 +843,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/74.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/74.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/74.gif"
     },
     {
@@ -855,7 +855,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/75.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/75.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/75.gif"
     },
     {
@@ -867,7 +867,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/76.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/76.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/76.gif"
     },
     {
@@ -878,7 +878,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/77.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/77.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/77.gif"
     },
     {
@@ -889,7 +889,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/78.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/78.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/78.gif"
     },
     {
@@ -901,7 +901,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/79.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/79.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/79.gif"
     },
     {
@@ -913,7 +913,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/80.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/80.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/80.gif"
     },
     {
@@ -925,7 +925,7 @@ export const pokemonList = [
             "Steel"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/81.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/81.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/81.gif"
     },
     {
@@ -937,7 +937,7 @@ export const pokemonList = [
             "Steel"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/82.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/82.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/82.gif"
     },
     {
@@ -949,7 +949,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/83.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/83.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/83.gif"
     },
     {
@@ -961,7 +961,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/84.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/84.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/84.gif"
     },
     {
@@ -973,7 +973,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/85.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/85.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/85.gif"
     },
     {
@@ -984,7 +984,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/86.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/86.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif"
     },
     {
@@ -996,7 +996,7 @@ export const pokemonList = [
             "Ice"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/87.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/87.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/87.gif"
     },
     {
@@ -1007,7 +1007,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/88.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/88.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/88.gif"
     },
     {
@@ -1018,7 +1018,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/89.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/89.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif"
     },
     {
@@ -1029,7 +1029,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/90.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/90.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/90.gif"
     },
     {
@@ -1041,7 +1041,7 @@ export const pokemonList = [
             "Ice"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/91.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/91.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/91.gif"
     },
     {
@@ -1053,7 +1053,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/92.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/92.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/92.gif"
     },
     {
@@ -1065,7 +1065,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/93.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/93.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/93.gif"
     },
     {
@@ -1077,7 +1077,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/94.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/94.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif"
     },
     {
@@ -1089,7 +1089,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/95.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/95.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif"
     },
     {
@@ -1100,7 +1100,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/96.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/96.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/96.gif"
     },
     {
@@ -1111,7 +1111,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/97.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/97.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/97.gif"
     },
     {
@@ -1122,7 +1122,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/98.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/98.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/98.gif"
     },
     {
@@ -1133,7 +1133,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/99.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/99.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/99.gif"
     },
     {
@@ -1144,7 +1144,7 @@ export const pokemonList = [
             "Electric"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/100.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/100.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/100.gif"
     },
     {
@@ -1155,7 +1155,7 @@ export const pokemonList = [
             "Electric"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/101.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/101.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/101.gif"
     },
     {
@@ -1167,7 +1167,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/102.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/102.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/102.gif"
     },
     {
@@ -1179,7 +1179,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/103.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/103.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/103.gif"
     },
     {
@@ -1190,7 +1190,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/104.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/104.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif"
     },
     {
@@ -1201,7 +1201,7 @@ export const pokemonList = [
             "Ground"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/105.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/105.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/105.gif"
     },
     {
@@ -1212,7 +1212,7 @@ export const pokemonList = [
             "Fighting"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/106.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/106.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif"
     },
     {
@@ -1223,7 +1223,7 @@ export const pokemonList = [
             "Fighting"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/107.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/107.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/107.gif"
     },
     {
@@ -1234,7 +1234,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/108.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/108.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/108.gif"
     },
     {
@@ -1245,7 +1245,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/109.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/109.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/109.gif"
     },
     {
@@ -1256,7 +1256,7 @@ export const pokemonList = [
             "Poison"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/110.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/110.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/110.gif"
     },
     {
@@ -1268,7 +1268,7 @@ export const pokemonList = [
             "Rock"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/111.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/111.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/111.gif"
     },
     {
@@ -1280,7 +1280,7 @@ export const pokemonList = [
             "Rock"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/112.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/112.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/112.gif"
     },
     {
@@ -1291,7 +1291,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/113.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/113.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/113.gif"
     },
     {
@@ -1302,7 +1302,7 @@ export const pokemonList = [
             "Grass"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/114.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/114.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/114.gif"
     },
     {
@@ -1313,7 +1313,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/115.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/115.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/115.gif"
     },
     {
@@ -1324,7 +1324,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/116.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/116.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/116.gif"
     },
     {
@@ -1335,7 +1335,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/117.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/117.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/117.gif"
     },
     {
@@ -1346,7 +1346,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/118.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/118.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/118.gif"
     },
     {
@@ -1357,7 +1357,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/119.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/119.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/119.gif"
     },
     {
@@ -1368,7 +1368,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/120.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/120.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/120.gif"
     },
     {
@@ -1380,7 +1380,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/121.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/121.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/121.gif"
     },
     {
@@ -1392,7 +1392,7 @@ export const pokemonList = [
             "Fairy"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/122.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/122.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif"
     },
     {
@@ -1404,7 +1404,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/123.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/123.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/123.gif"
     },
     {
@@ -1416,7 +1416,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/124.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/124.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif"
     },
     {
@@ -1427,7 +1427,7 @@ export const pokemonList = [
             "Electric"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/125.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/125.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/125.gif"
     },
     {
@@ -1438,7 +1438,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/126.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/126.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/126.gif"
     },
     {
@@ -1449,7 +1449,7 @@ export const pokemonList = [
             "Bug"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/127.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/127.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif"
     },
     {
@@ -1460,7 +1460,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/128.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/128.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/128.gif"
     },
     {
@@ -1471,7 +1471,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/129.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/129.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/129.gif"
     },
     {
@@ -1483,7 +1483,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/130.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/130.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif"
     },
     {
@@ -1495,7 +1495,7 @@ export const pokemonList = [
             "Ice"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/131.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/131.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/131.gif"
     },
     {
@@ -1506,7 +1506,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/132.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/132.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif"
     },
     {
@@ -1517,7 +1517,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/133.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/133.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif"
     },
     {
@@ -1528,7 +1528,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/134.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/134.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/134.gif"
     },
     {
@@ -1539,7 +1539,7 @@ export const pokemonList = [
             "Electric"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/135.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/135.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/135.gif"
     },
     {
@@ -1550,7 +1550,7 @@ export const pokemonList = [
             "Fire"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/136.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/136.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/136.gif"
     },
     {
@@ -1561,7 +1561,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/137.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/137.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif"
     },
     {
@@ -1573,7 +1573,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/138.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/138.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/138.gif"
     },
     {
@@ -1585,7 +1585,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/139.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/139.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/139.gif"
     },
     {
@@ -1597,7 +1597,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/140.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/140.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/140.gif"
     },
     {
@@ -1609,7 +1609,7 @@ export const pokemonList = [
             "Water"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/141.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/141.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/141.gif"
     },
     {
@@ -1621,7 +1621,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/142.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/142.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/142.gif"
     },
     {
@@ -1632,7 +1632,7 @@ export const pokemonList = [
             "Normal"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/143.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/143.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif"
     },
     {
@@ -1644,7 +1644,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/144.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/144.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/144.gif"
     },
     {
@@ -1656,7 +1656,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/145.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/145.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/145.gif"
     },
     {
@@ -1668,7 +1668,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/146.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/146.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/146.gif"
     },
     {
@@ -1679,7 +1679,7 @@ export const pokemonList = [
             "Dragon"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/147.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/147.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/147.gif"
     },
     {
@@ -1690,7 +1690,7 @@ export const pokemonList = [
             "Dragon"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/148.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/148.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/148.gif"
     },
     {
@@ -1702,7 +1702,7 @@ export const pokemonList = [
             "Flying"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/149.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/149.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/149.gif"
     },
     {
@@ -1713,7 +1713,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/150.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/150.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/150.gif"
     },
     {
@@ -1724,7 +1724,7 @@ export const pokemonList = [
             "Psychic"
         ],
         "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
-        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/151.png",
+        "logopng": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/151.png",
         "logogif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif"
     }
 ]

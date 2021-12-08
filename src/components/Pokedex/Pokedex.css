@@ -43,6 +43,7 @@
     display: grid;
     grid-template-columns: 30% 70%;
     grid-auto-rows: minmax(auto, 24px);
+    background-color: white;
 }
 
 #pokedex .pokemon-list a img {
@@ -55,4 +56,5 @@
 
 #pokedex .pokemon-list a span {
     padding-left: 24px;
+    color: black;
 }

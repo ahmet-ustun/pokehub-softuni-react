@@ -5,9 +5,7 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-
-
-const Pokemon = ({ pokemon, picStyle }) => {
+const Result = ({ pokemon, picStyle }) => {
 
     const { letter } = useParams();
 
@@ -18,12 +16,12 @@ const Pokemon = ({ pokemon, picStyle }) => {
         .toString()
         .padStart(3, '0');
 
-    const img = picStyle === 'png' 
-        ? pokemon.logopng 
+    const img = picStyle === 'png'
+        ? pokemon.logopng
         : pokemon.logogif;
 
     return (
-        <Link to={`/pokedex/${letter}/${name}`} className="nes-container is-dark">
+        <Link to={`/pokedex/${letter}/${name}`} className="nes-container">
             <img className={picStyle} src={img} alt={pokemon.name} />
             <span>{`#${code}`}</span>
             <span>{pokemon.name}</span>
@@ -42,7 +40,7 @@ const Output = ({ picStyle }) => {
 
     return outputList.length === 0
         ? 'TODO'
-        : outputList.map(x => <Pokemon pokemon={x} picStyle={picStyle} key={x.name} />);
+        : outputList.map(x => <Result pokemon={x} picStyle={picStyle} key={x.name} />);
 }
 
 const Pokedex = () => {

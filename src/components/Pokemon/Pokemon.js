@@ -10,6 +10,12 @@ const Result = ({ pokemon }) => {
         .toString()
         .padStart(3, '0');
 
+    const Span = ({ x }) => {
+        return (
+            <span>{x}</span>
+        );
+    }
+
     return (
         <div id="pokemon-self">
             <img src={pokemon.img} alt={pokemon.name} />
@@ -18,7 +24,9 @@ const Result = ({ pokemon }) => {
             <div>
                 <span>Type:</span>
                 <ul>
-                    {pokemon.type.map(x => <li key={x}>{x}</li>)}
+                    {pokemon.type.map(x => <li className={x.toLowerCase()} key={x}>
+                        <Span x={x} />
+                    </li>)}
                 </ul>
             </div>
         </div>

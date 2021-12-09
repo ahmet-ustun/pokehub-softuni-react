@@ -28,3 +28,86 @@
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
+
+#pokemon-self div li {
+    list-style: none;
+    margin-top: 4px;
+}
+
+#pokemon-self div li span {
+    border: solid black 2px;
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+
+#pokemon-self div .bug span {
+    background-color: #84C400;
+}
+
+#pokemon-self div .dark span {
+    background-color: #5B5366;
+}
+
+#pokemon-self div .dragon span {
+    background-color: #0070CA;
+}
+
+#pokemon-self div .electric span {
+    background-color: #FBD200;
+}
+
+#pokemon-self div .fairy span {
+    background-color: #FB8AEC;
+}
+
+#pokemon-self div .fighting span {
+    background-color: #E12C6A;
+}
+
+#pokemon-self div .fire span {
+    background-color: #FF983F;
+}
+
+#pokemon-self div .flying span {
+    background-color: #8AACE4;
+}
+
+#pokemon-self div .ghost span {
+    background-color: #4B6AB3;
+}
+
+#pokemon-self div .grass span {
+    background-color: #35C04A;
+}
+
+#pokemon-self div .ground span {
+    background-color: #E97333;
+}
+
+#pokemon-self div .ice span {
+    background-color: #4BD2C1;
+}
+
+#pokemon-self div .normal span {
+    background-color: #929BA3;
+}
+
+#pokemon-self div .poison span {
+    background-color: #B667CF;
+}
+
+#pokemon-self div .psychic span {
+    background-color: #FF6676;
+}
+
+#pokemon-self div .rock span {
+    background-color: #C9B787;
+}
+
+#pokemon-self div .steel span {
+    background-color: #598FA3;
+}
+
+#pokemon-self div .water span {
+    background-color: #3393DD;
+}

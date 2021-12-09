@@ -44,6 +44,7 @@
     grid-template-columns: 30% 70%;
     grid-auto-rows: minmax(auto, 24px);
     background-color: white;
+    border-radius: 14px;
 }
 
 #pokedex .pokemon-list a img {

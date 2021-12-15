@@ -34,7 +34,7 @@ const Signup = () => {
         color: '#E3350D'
     };
 
-    const signupUser = async () => {
+    const signupUser = () => {
         
         if (registerEmail && registerPassword && registerRePassword 
             && condition2 && condition3 && condition4) {
@@ -50,7 +50,7 @@ const Signup = () => {
                 history.push('/');
             }).catch((error) => {
                 console.log(error.message);
-            })
+            });
 
         } else {
             setIsMistake(true);

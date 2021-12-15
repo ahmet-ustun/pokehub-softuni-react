@@ -6,12 +6,12 @@ const Login = () => {
             <h2>Login</h2>
 
             <form>
-                <div class="nes-field">
-                    <input type="email" id="email" class="nes-input" placeholder="Enter e-mail" />
+                <div className="nes-field">
+                    <input type="email" id="email" className="nes-input" placeholder="Enter e-mail" />
                 </div>
 
-                <div class="nes-field">
-                    <input type="password" id="password" class="nes-input" placeholder="Enter password" />
+                <div className="nes-field">
+                    <input type="password" id="password" className="nes-input" placeholder="Enter password" />
                 </div>
 
                 <div>

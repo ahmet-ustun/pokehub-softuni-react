@@ -1,5 +1,9 @@
 import './Navbar.css';
+
 import { Link } from 'react-router-dom';
+import { signOut } from 'firebase/auth';
+import { auth } from '../../firebase.js';
+import { useHistory } from 'react-router-dom';
 
 const LeftSide = () => {
 
@@ -19,6 +23,20 @@ const LeftSide = () => {
 
 const RightSide = () => {
 
+    let history = useHistory();
+
+    const logoutUser = (e) => {
+
+        e.preventDefault();
+
+        signOut(auth)
+            .then(() => {
+                history.push('/');
+            }).catch((error) => {
+                console.log(error.message);
+            });
+    }
+
     return (
         <div id="navbar-right">
             <Link to="/login">
@@ -29,7 +47,7 @@ const RightSide = () => {
                 <img src="https://img.icons8.com/dusk/64/000000/book-and-pencil.png" alt="Signup" />
                 <span>Signup</span>
             </Link>
-            <Link to="/logout">
+            <Link to="/logout" onClick={logoutUser}>
                 <img src="https://img.icons8.com/dusk/64/000000/logout-rounded-left.png" alt="Logout" />
                 <span>Logout</span>
             </Link>

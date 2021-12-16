@@ -17,9 +17,9 @@ const Signup = () => {
     
     let history = useHistory();
 
-    const condition2 = emailValidator.validate(registerEmail);
-    const condition3 = registerPassword.length >= 6 && registerPassword.length <= 12;
-    const condition4 = registerPassword === registerRePassword;
+    const condition1 = emailValidator.validate(registerEmail);
+    const condition2 = registerPassword.length >= 6 && registerPassword.length <= 12;
+    const condition3 = registerPassword === registerRePassword;
 
     const errorValues1 = {
         fontSize: '12px',
@@ -37,7 +37,7 @@ const Signup = () => {
     const signupUser = () => {
         
         if (registerEmail && registerPassword && registerRePassword 
-            && condition2 && condition3 && condition4) {
+            && condition1 && condition2 && condition3) {
 
             setIsMistake(false);
             setIsLoading(true);
@@ -49,7 +49,8 @@ const Signup = () => {
             ).then(() => {
                 history.push('/');
             }).catch((error) => {
-                console.log(error.message);
+                alert(error.message);
+                setIsLoading(false);
             });
 
         } else {
@@ -70,7 +71,7 @@ const Signup = () => {
                         placeholder="Enter e-mail"
                         onChange={e => setRegisterEmail(e.target.value)}
                     />
-                    {(registerEmail && !condition2) && <span style={errorValues1}>E-mail address must be a valid one.</span>}
+                    {(registerEmail && !condition1) && <span style={errorValues1}>E-mail address must be a valid one.</span>}
                 </div>
 
                 <div className="nes-field">
@@ -80,7 +81,7 @@ const Signup = () => {
                         placeholder="Enter password"
                         onChange={e => setRegisterPassword(e.target.value)}
                     />
-                    {(registerPassword && !condition3) && <span style={errorValues1}>Password must be between 6 and 12 characters.</span>}
+                    {(registerPassword && !condition2) && <span style={errorValues1}>Password must be between 6 and 12 characters.</span>}
                 </div>
 
                 <div className="nes-field">
@@ -90,7 +91,7 @@ const Signup = () => {
                         placeholder="Re-enter password"
                         onChange={e => setRegisterRePassword(e.target.value)}
                     />
-                    {(registerRePassword && !condition4) && <span style={errorValues1}>Password must be written two times.</span>}
+                    {(registerRePassword && !condition3) && <span style={errorValues1}>Password must be written two times.</span>}
                 </div>
 
                 <div>

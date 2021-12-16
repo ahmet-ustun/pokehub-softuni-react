@@ -4,8 +4,12 @@ import { Link } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
 import { auth } from '../../firebase.js';
 import { useHistory } from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from '../../contexts/Auth.js';
 
 const LeftSide = () => {
+
+    const { currentUser } = useContext(AuthContext);
 
     return (
         <div id="navbar-left">
@@ -13,10 +17,10 @@ const LeftSide = () => {
                 <img src="https://img.icons8.com/dusk/64/000000/home.png" alt="Home" />
                 <span>Home</span>
             </Link>
-            <Link to="/catch">
+            {currentUser && <Link to="/catch">
                 <img src="https://img.icons8.com/dusk/64/000000/open-pokeball.png" alt="Catch" />
                 <span>Catch</span>
-            </Link>
+            </Link>}
         </div>
     );
 }
@@ -24,6 +28,8 @@ const LeftSide = () => {
 const RightSide = () => {
 
     let history = useHistory();
+
+    const { currentUser } = useContext(AuthContext);
 
     const logoutUser = (e) => {
 
@@ -39,18 +45,18 @@ const RightSide = () => {
 
     return (
         <div id="navbar-right">
-            <Link to="/login">
+            {!currentUser && <Link to="/login">
                 <img src="https://img.icons8.com/dusk/64/000000/login-rounded-right.png" alt="Login" />
                 <span>Login</span>
-            </Link>
-            <Link to="/signup">
+            </Link>}
+            {!currentUser && <Link to="/signup">
                 <img src="https://img.icons8.com/dusk/64/000000/book-and-pencil.png" alt="Signup" />
                 <span>Signup</span>
-            </Link>
-            <Link to="/logout" onClick={logoutUser}>
+            </Link>}
+            {currentUser && <Link to="/logout" onClick={logoutUser}>
                 <img src="https://img.icons8.com/dusk/64/000000/logout-rounded-left.png" alt="Logout" />
                 <span>Logout</span>
-            </Link>
+            </Link>}
         </div>
     );
 }

@@ -5,11 +5,15 @@ import { auth } from '../firebase.js';
 const AuthContext = createContext(undefined);
 
 const AuthProvider = ({ children }) => {
+
     const [currentUser, setCurrentUser] = useState(undefined);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        
         const unsubscribe = onAuthStateChanged(auth, (user) => {
-                setCurrentUser(user)
+                setCurrentUser(user);
+                setLoading(false);
             });
 
         return unsubscribe;
@@ -17,7 +21,7 @@ const AuthProvider = ({ children }) => {
 
     return (
         <AuthContext.Provider value={{ currentUser }}>
-            {children}
+            {!loading && children}
         </AuthContext.Provider>
     );
 };

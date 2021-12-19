@@ -52,7 +52,6 @@
     justify-self: center;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    height: 52px;
 }
 
 #pokedex .pokemon-list a span {

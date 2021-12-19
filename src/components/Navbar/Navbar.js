@@ -14,11 +14,11 @@ const LeftSide = () => {
     return (
         <div id="navbar-left">
             <Link to="/">
-                <img src="https://img.icons8.com/dusk/64/000000/home.png" alt="Home" />
+                <img src="/assets/navbar/Home.png" alt="Home" />
                 <span>Home</span>
             </Link>
             {currentUser && <Link to="/catch">
-                <img src="https://img.icons8.com/dusk/64/000000/open-pokeball.png" alt="Catch" />
+                <img src="/assets/navbar/Catch.png" alt="Catch" />
                 <span>Catch</span>
             </Link>}
         </div>
@@ -47,15 +47,15 @@ const RightSide = () => {
     return (
         <div id="navbar-right">
             {!currentUser && <Link to="/login">
-                <img src="https://img.icons8.com/dusk/64/000000/login-rounded-right.png" alt="Login" />
+                <img src="/assets/navbar/Login.png" alt="Login" />
                 <span>Login</span>
             </Link>}
             {!currentUser && <Link to="/signup">
-                <img src="https://img.icons8.com/dusk/64/000000/book-and-pencil.png" alt="Signup" />
+                <img src="/assets/navbar/Signup.png" alt="Signup" />
                 <span>Signup</span>
             </Link>}
             {currentUser && <Link to={emptyLink} onClick={logoutUser}>
-                <img src="https://img.icons8.com/dusk/64/000000/logout-rounded-left.png" alt="Logout" />
+                <img src="/assets/navbar/Logout.png" alt="Logout" />
                 <span>Logout</span>
             </Link>}
         </div>

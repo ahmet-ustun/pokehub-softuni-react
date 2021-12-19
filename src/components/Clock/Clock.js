@@ -22,7 +22,7 @@ const Clock = () => {
 
     return (
         <div id="clock" className="nes-container is-dark">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="Pikachu Gif" />
+            <img src="/assets/gif/25.gif" alt="Pikachu Gif" />
             <p>{time.toLocaleDateString('en-GB', options)}</p>
             <p>{time.toLocaleTimeString('en-GB')}</p>
         </div>

@@ -2,7 +2,7 @@ import './NotFound.css';
 
 const NotFoundPic = () => {
     return (
-        <img src="https://i.imgflip.com/5x4le1.jpg" alt="Not found" />
+        <img src="/assets/error/NotFound.jpg" alt="Not Found" />
     );
 }
 

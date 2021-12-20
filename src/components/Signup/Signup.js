@@ -3,8 +3,9 @@ import './Signup.css';
 import { useState } from 'react';
 import emailValidator from 'email-validator';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../../firebase.js';
+import { auth, db } from '../../firebase.js';
 import { useHistory } from 'react-router-dom';
+import { doc, setDoc } from 'firebase/firestore';
 
 const Signup = () => {
 
@@ -14,7 +15,7 @@ const Signup = () => {
 
     const [isMistake, setIsMistake] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-    
+
     let history = useHistory();
 
     const condition1 = emailValidator.validate(registerEmail);
@@ -35,8 +36,8 @@ const Signup = () => {
     };
 
     const signupUser = () => {
-        
-        if (registerEmail && registerPassword && registerRePassword 
+
+        if (registerEmail && registerPassword && registerRePassword
             && condition1 && condition2 && condition3) {
 
             setIsMistake(false);
@@ -46,8 +47,14 @@ const Signup = () => {
                 auth,
                 registerEmail,
                 registerPassword
-            ).then(() => {
+            ).then(async (response) => {
                 history.push('/');
+                const user = response.user.uid;
+                const docRef = doc(db, "users", user);
+                await setDoc(docRef, {
+                    lastCaught: '',
+                    collection: []
+                });
             }).catch((error) => {
                 alert(error.message);
                 setIsLoading(false);

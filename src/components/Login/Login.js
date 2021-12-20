@@ -86,7 +86,7 @@ const Login = () => {
                         className="nes-btn is-primary"
                         disabled={isLoading}
                         onClick={loginUser}
-                    >Submit</button>
+                    >{isLoading ? "Loading" : "Submit"}</button>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
     grid-gap: 96px;
     align-items: end;
     justify-items: center;
-    background-image: url("https://cutewallpaper.org/21/battle-backgrounds/Pokemon-background-battle-8-Background-Check-All.png");
+    background-image: url("../Catch/Background.png");
 }
 
 #catch button {
@@ -28,23 +28,10 @@
 #catch .is-rounded .pokemon {
     grid-column: 3 / 6;
     grid-row: 1 / 4;
-    width: 110px;
 }
 
 #catch .is-rounded .trainer {
     grid-column: 1 / 4;
     grid-row: 3 / 6;
     width: 140px;
-}
-
-#try-tomorrow {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    grid-column: 1 / 6;
-    grid-row: 1 / 7;
-}
-
-#try-tomorrow img {
-    border: solid 4px black;
 }

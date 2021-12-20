@@ -28,9 +28,7 @@ const LeftSide = () => {
 const RightSide = () => {
 
     let history = useHistory();
-
     const { currentUser } = useContext(AuthContext);
-    const emptyLink = { pathname: "javascript:void(0)" };
 
     const logoutUser = (e) => {
 
@@ -54,7 +52,7 @@ const RightSide = () => {
                 <img src="/assets/navbar/Signup.png" alt="Signup" />
                 <span>Signup</span>
             </Link>}
-            {currentUser && <Link to={emptyLink} onClick={logoutUser}>
+            {currentUser && <Link to="/" onClick={logoutUser}>
                 <img src="/assets/navbar/Logout.png" alt="Logout" />
                 <span>Logout</span>
             </Link>}

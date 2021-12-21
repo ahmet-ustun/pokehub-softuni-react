@@ -10,7 +10,6 @@ import { NotFound2 } from '../NotFound/NotFound.js';
 
 const Result = ({ pokemon, picStyle }) => {
 
-    const { letter } = useParams();
 
     const name = pokemon.name
         .toLowerCase();
@@ -24,7 +23,7 @@ const Result = ({ pokemon, picStyle }) => {
         : pokemon.logogif;
 
     return (
-        <Link to={`/pokedex/${letter}/${name}`} className="nes-container">
+        <Link to={`/pokedex/name/${name}`} className="nes-container">
             <img className={picStyle} src={img} alt={pokemon.name} />
             <span>{`#${code}`}</span>
             <span>{pokemon.name}</span>
@@ -101,4 +100,7 @@ const Pokedex = () => {
     );
 }
 
-export default Pokedex;
+export {
+    Pokedex,
+    Result
+};

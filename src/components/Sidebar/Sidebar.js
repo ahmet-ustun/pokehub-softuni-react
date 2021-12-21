@@ -10,7 +10,7 @@ const ButtonList = () => {
 
     return letterList.map(letter => {
         return (
-            <Link to={`/pokedex/${letter.toLowerCase()}`} className="nes-btn is-primary" key={letter}>
+            <Link to={`/pokedex/letter/${letter.toLowerCase()}`} className="nes-btn is-primary" key={letter}>
                 {letter}
             </Link>
         )

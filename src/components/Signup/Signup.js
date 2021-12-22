@@ -68,9 +68,7 @@ const Signup = () => {
     return (
         <div id="signup" className="nes-container is-dark">
             <h2>Signup</h2>
-
             <div className='form'>
-
                 <div className="nes-field">
                     <input
                         type="email"
@@ -80,7 +78,6 @@ const Signup = () => {
                     />
                     {(registerEmail && !condition1) && <span style={errorValues1}>E-mail address must be a valid one.</span>}
                 </div>
-
                 <div className="nes-field">
                     <input
                         type="password"
@@ -90,7 +87,6 @@ const Signup = () => {
                     />
                     {(registerPassword && !condition2) && <span style={errorValues1}>Password must be between 6 and 12 characters.</span>}
                 </div>
-
                 <div className="nes-field">
                     <input
                         type="password"
@@ -100,7 +96,6 @@ const Signup = () => {
                     />
                     {(registerRePassword && !condition3) && <span style={errorValues1}>Password must be written two times.</span>}
                 </div>
-
                 <div>
                     {isMistake && <span style={errorValues2}>All areas must be filled out.</span>}
                     <button

@@ -25,7 +25,11 @@ const Counter = ({ userEmail, userData, isLoading, isMistake }) => {
                     }</span>
             }
             <span>{userEmail}</span>
-            <progress className="nes-progress is-success" value={caught} max={total}></progress>
+            <progress
+                className="nes-progress is-success"
+                value={caught}
+                max={total}
+            ></progress>
         </div>
     );
 }

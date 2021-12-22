@@ -10,7 +10,6 @@ import { NotFound2 } from '../NotFound/NotFound.js';
 
 const Result = ({ pokemon, picStyle }) => {
 
-
     const name = pokemon.name
         .toLowerCase();
 
@@ -24,7 +23,11 @@ const Result = ({ pokemon, picStyle }) => {
 
     return (
         <Link to={`/pokedex/name/${name}`} className="nes-container">
-            <img className={picStyle} src={img} alt={pokemon.name} />
+            <img
+                className={picStyle}
+                src={img}
+                alt={pokemon.name}
+            />
             <span>{`#${code}`}</span>
             <span>{pokemon.name}</span>
         </Link>
@@ -44,7 +47,7 @@ const Output = ({ picStyle, searchValue }) => {
         const a = x.name.toLowerCase();
         const b = searchValue.toLowerCase();
         return a.includes(b);
-    })
+    });
 
     return searchList.length === 0
         ? <NoResult />
@@ -73,26 +76,40 @@ const Pokedex = () => {
 
     return (
         <div id="pokedex" className="nes-container is-dark">
-
             <div className="toolbar">
                 <div className="animation">
                     <label>
-                        <input type="radio" className="nes-radio is-dark" name="answer-dark" checked={value === 'png'} onChange={handleChange} />
+                        <input
+                            type="radio"
+                            className="nes-radio is-dark"
+                            name="answer-dark"
+                            checked={value === 'png'}
+                            onChange={handleChange}
+                        />
                         <span>Retro</span>
                     </label>
-
                     <label>
-                        <input type="radio" className="nes-radio is-dark" name="answer-dark" checked={value === 'gif'} onChange={handleChange} />
+                        <input
+                            type="radio"
+                            className="nes-radio is-dark"
+                            name="answer-dark"
+                            checked={value === 'gif'}
+                            onChange={handleChange}
+                        />
                         <span>Modern</span>
                     </label>
                 </div>
-
                 <div className="nes-field">
                     <img src="https://img.icons8.com/dusk/64/000000/google-web-search.png" alt="Search" />
-                    <input type="text" id="search" className="nes-input" value={searchValue} onChange={searchPokemon} />
+                    <input
+                        type="text"
+                        id="search"
+                        className="nes-input"
+                        value={searchValue}
+                        onChange={searchPokemon}
+                    />
                 </div>
             </div>
-
             <div className="pokemon-list">
                 <Output picStyle={value} searchValue={searchValue} />
             </div>

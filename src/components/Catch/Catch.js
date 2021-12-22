@@ -59,7 +59,7 @@ const Catch = () => {
 
                     while (docData.collection.includes(searchCode)) {
                         searchCode = getRandomCode(1, 151);
-                    };
+                    }
 
                     await setDoc(docRef, {
                         lastCaught: date,
@@ -82,7 +82,11 @@ const Catch = () => {
         <div id="catch" className="nes-container is-dark">
             <div className="nes-container is-rounded">
                 <Image isLoading={isLoading} isFound={isFound} />
-                <img className='trainer' src="/assets/catch/Trainer.png" alt="Trainer" />
+                <img
+                    className='trainer'
+                    src="/assets/catch/Trainer.png"
+                    alt="Trainer"
+                />
             </div>
             <button
                 type="button"

@@ -58,7 +58,6 @@ const Login = () => {
     return (
         <div id="login" className="nes-container is-dark">
             <h2>Login</h2>
-
             <div className="form">
                 <div className="nes-field">
                     <input
@@ -69,7 +68,6 @@ const Login = () => {
                     />
                     {(loginEmail && !condition1) && <span style={errorValues1}>E-mail address must be filled out.</span>}
                 </div>
-
                 <div className="nes-field">
                     <input
                         type="password"
@@ -79,7 +77,6 @@ const Login = () => {
                     />
                     {(loginPassword && !condition2) && <span style={errorValues1}>Password must be filled out.</span>}
                 </div>
-
                 <div>
                     {isMistake && <span style={errorValues2}>All areas must be filled out.</span>}
                     <button

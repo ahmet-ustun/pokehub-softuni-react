@@ -9,8 +9,11 @@ In the website, all users can visit:
 ### `Home`
 
 In the Home page, a very brief explanation about the project is given.\
+
 Logged-in users will be automatically forwarded to their dashboards. \
+
 In the dashboard, they will be able to see all their collected Pokémon.\
+
 Clicking on each Pokémon will redirect to the respective Pokédex page.
 
 ### `Login`

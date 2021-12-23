@@ -1,9 +1,8 @@
 import './Dashboard.css';
 
-import { useContext, useEffect } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import { AuthContext } from '../../contexts/Auth.js';
-import { useState } from 'react/cjs/react.development';
-import { doc, getDoc } from 'firebase/firestore';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { db } from '../../firebase.js';
 import { pokemonList } from '../../database/pokemonList.js';
 import { Result } from '../Pokedex/Pokedex.js';
@@ -69,20 +68,21 @@ const Dashboard = () => {
     const [userData, setUserData] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [isMistake, setIsMistake] = useState(false);
+
     const { currentUser } = useContext(AuthContext);
 
     useEffect(() => {
-
-        const user = currentUser.uid;
-        const docRef = doc(db, "users", user);
 
         setUserData([]);
         setIsLoading(true);
         setIsMistake(false);
 
-        async function getUserData() {
+        const user = currentUser.uid;
+
+        (async () => {
 
             try {
+                const docRef = doc(db, "users", user);
                 const docSnap = await getDoc(docRef);
                 const docData = docSnap.data();
 
@@ -95,9 +95,8 @@ const Dashboard = () => {
                 setIsLoading(false);
                 setIsMistake(error.message);
             }
-        };
+        })();
 
-        getUserData();
         return null;
     }, [currentUser]);
 

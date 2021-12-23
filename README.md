@@ -8,25 +8,31 @@ In the website, all users can visit:
 
 ### `Home`
 
-In the Home page, a very brief explanation about the project is given.\
+In the Home page, a very brief explanation about the project is given.
 
-Logged-in users will be automatically forwarded to their dashboards. \
+Logged-in users will be automatically forwarded to their dashboards.
 
-In the dashboard, they will be able to see all their collected Pokémon.\
+In the dashboard, they will be able to see all their collected Pokémon.
 
 Clicking on each Pokémon will redirect to the respective Pokédex page.
 
 ### `Login`
 
-Launches the test runner in the interactive watch mode.\
+User will be able to log in with their accounts.
 
 ### `Signup`
 
-Builds the app for production to the `build` folder.\
+User will be able to sign up their new accounts.
 
 ### `Pokédex`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+All users can check information about their favourite Pokémon.
+
+Pokédex is showing all the first 151 Pokémon divided per letter.
+
+For each letter-specific page:
+- Choosing 'Retro' will show the PNG picture of each Pokémon
+- Choosing 'Modern' will show the GIF picture of each Pokémon
 
 ## Logged-in Users
 

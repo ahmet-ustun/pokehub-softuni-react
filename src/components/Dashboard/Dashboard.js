@@ -2,7 +2,7 @@ import './Dashboard.css';
 
 import { useState, useContext, useEffect } from 'react';
 import { AuthContext } from '../../contexts/Auth.js';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../../firebase.js';
 import { pokemonList } from '../../database/pokemonList.js';
 import { Result } from '../Pokedex/Pokedex.js';

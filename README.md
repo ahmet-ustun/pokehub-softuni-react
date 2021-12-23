@@ -10,9 +10,9 @@ In the website, all users can visit:
 
 In the Home page, a very brief explanation about the project is given.
 
-Logged-in users will be automatically forwarded to their dashboards.
+Logged-in users will be automatically forwarded to their Dashboards.
 
-In the dashboard, they will be able to see all their collected Pokémon.
+In the Dashboard, they will be able to see all their collected Pokémon.
 
 Clicking on each Pokémon will redirect to the respective Pokédex page.
 
@@ -36,10 +36,14 @@ For each letter-specific page:
 
 - Choosing 'Modern' will show the GIF picture of each Pokémon
 
+Search Bar in Pokédex is dynamic, and searches the included text.
+
 ## Logged-in Users
 
 In the website, only logged-in users can visit:
 
 ### `Catch`
 
-Runs the app in the development mode.\
+Only logged-in users are able to catch Pokémon each day.
+
+Each user will be able to catch one type of Pokémon once.

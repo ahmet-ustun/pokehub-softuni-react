@@ -31,7 +31,9 @@ All users can check information about their favourite Pokémon.
 Pokédex is showing all the first 151 Pokémon divided per letter.
 
 For each letter-specific page:
+
 - Choosing 'Retro' will show the PNG picture of each Pokémon
+
 - Choosing 'Modern' will show the GIF picture of each Pokémon
 
 ## Logged-in Users

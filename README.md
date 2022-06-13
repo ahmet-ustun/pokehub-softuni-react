@@ -1,4 +1,4 @@
-# Poké Hub
+# PokéHub
 
 This is a [React project](https://pokehub-softuni-react.web.app/) created by Ahmet Ustun for the SoftUni React exam.
 
